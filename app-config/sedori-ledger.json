@@ -1,3 +1,12 @@
 {
-  "minimumVersion": "1.0.0"
+  "minimumVersion": "1.0.0",
+  "announcements": [
+    {
+      "id": "android-coming-soon",
+      "title": "Android版、まもなく登場",
+      "body": "せどり帳のAndroid版を、まもなくGoogle Playで公開します。いつもご利用ありがとうございます！\n\n公開されたら、Androidを使っている仲間ともグループの招待コードで同じ帳簿を共有できます。ぜひ誘ってみてください。",
+      "titleEn": "Android version coming soon",
+      "bodyEn": "Resell Ledger is coming to Google Play soon. Thank you for using the app!\n\nOnce it's out, you can share the same ledger with friends on Android using your group invite code."
+    }
+  ]
 }
