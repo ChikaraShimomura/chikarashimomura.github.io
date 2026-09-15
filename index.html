@@ -34,9 +34,10 @@
     .hero h1 { font-size: 28px; letter-spacing: 1px; }
     .hero .subtitle { margin-top: 8px; color: #C9D4E0; font-size: 14px; }
     .hero .gold { color: var(--gold); font-weight: bold; }
+    .store-links { margin-top: 24px; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+    .store-link.soon { background: rgba(255, 255, 255, 0.28); color: #fff; cursor: default; }
     .store-link {
       display: inline-block;
-      margin-top: 24px;
       background: #fff;
       color: var(--accent);
       font-weight: bold;
@@ -67,7 +68,11 @@
     <div class="hero">
       <h1>せどり帳</h1>
       <p class="subtitle">仕入れと売却の<span class="gold">利益管理</span>をシンプルに</p>
-      <a class="store-link" href="https://apps.apple.com/jp/app/id6793951342">App Store で入手</a>
+      <div class="store-links">
+        <a class="store-link" href="https://apps.apple.com/jp/app/id6793951342">App Store で入手</a>
+        <!-- Google Play 公開後: span を <a class="store-link" href="https://play.google.com/store/apps/details?id=com.chikara.sedoriledger">Google Play で入手</a> に差し替え -->
+        <span class="store-link soon">Google Play（まもなく）</span>
+      </div>
     </div>
 
     <div class="card">
