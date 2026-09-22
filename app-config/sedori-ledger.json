@@ -16,5 +16,6 @@
       "bodyEn": "You can now add items to your Stock and Sold lists all at once from photos of a paper ledger, screenshots of another app, or a copied table. Tap + and choose \"Import in bulk\".\n\nText in photos is read only on this device. Numbers the app is unsure about are highlighted in yellow so you can check them before adding.\n\nUpdate to the latest version (2.1.0) to use it."
     }
   ],
-  "promos": []
+  "promos": [],
+  "photoUploadPaused": false
 }
