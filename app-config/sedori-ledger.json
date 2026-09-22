@@ -7,6 +7,13 @@
       "body": "せどり帳のAndroid版をGoogle Playで公開しました。いつもご利用ありがとうございます！\n\nAndroidを使っている仲間とも、グループの招待コードで同じ帳簿を共有できます。ぜひ誘ってみてください。",
       "titleEn": "Now on Android",
       "bodyEn": "Resell Ledger is now available on Google Play. Thank you for using the app!\n\nYou can now share the same ledger with friends on Android using your group invite code."
+    },
+    {
+      "id": "import-2-1-0",
+      "title": "過去データをまとめて取込めるようになりました",
+      "body": "紙の帳簿の写真や、ほかのアプリのスクショ・コピーした表から、仕入れ一覧と売上一覧にまとめて登録できるようになりました。＋ボタン →「まとめて取り込む」から使えます。\n\n写真の読み取りはこの端末の中だけで行います。読み取りに自信のない数字は黄色で表示されるので、確かめてから登録できます。\n\n最新版（2.1.0）にアップデートしてお使いください。",
+      "titleEn": "Bring in your past records",
+      "bodyEn": "You can now add items to your Stock and Sold lists all at once from photos of a paper ledger, screenshots of another app, or a copied table. Tap + and choose \"Import in bulk\".\n\nText in photos is read only on this device. Numbers the app is unsure about are highlighted in yellow so you can check them before adding.\n\nUpdate to the latest version (2.1.0) to use it."
     }
   ]
 }
