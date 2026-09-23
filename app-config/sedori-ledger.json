@@ -14,8 +14,14 @@
       "body": "紙の帳簿の写真や、ほかのアプリのスクショ・コピーした表から、仕入れ一覧と売上一覧にまとめて登録できるようになりました。＋ボタン →「まとめて取り込む」から使えます。\n\n写真の読み取りはこの端末の中だけで行います。読み取りに自信のない数字は黄色で表示されるので、確かめてから登録できます。\n\n最新版（2.1.0）にアップデートしてお使いください。",
       "titleEn": "Bring in your past records",
       "bodyEn": "You can now add items to your Stock and Sold lists all at once from photos of a paper ledger, screenshots of another app, or a copied table. Tap + and choose \"Import in bulk\".\n\nText in photos is read only on this device. Numbers the app is unsure about are highlighted in yellow so you can check them before adding.\n\nUpdate to the latest version (2.1.0) to use it."
+    },
+    {
+      "id": "free-more-2-2-0",
+      "title": "手数料の自動計算が無料でも使えるようになりました",
+      "body": "無料のままでも、売却時の手数料の自動計算を毎月10件まで使えるようになりました。集計の「確定申告」の数字(売上・仕入れ・経費・利益)も無料で見られます。\n\nグループでは、オーナーが設定の「写真の共有」をオンにすると、商品画像(選べば領収書も)をメンバー全員で見られるようになりました。\n\n最新版（2.2.0）にアップデートしてお使いください。",
+      "titleEn": "Automatic fees, now free to try",
+      "bodyEn": "Automatic fee calculation is now free up to 10 times a month, and the \"Tax return\" figures in Stats are visible on the free plan.\n\nIn groups, when the owner turns on \"Photo sharing\" in Settings, every member can see item photos (and receipts, if chosen).\n\nUpdate to the latest version (2.2.0) to use it."
     }
   ],
-  "promos": [],
   "photoUploadPaused": false
 }
