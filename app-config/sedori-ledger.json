@@ -21,6 +21,13 @@
       "body": "無料のままでも、売却時の手数料の自動計算を毎月10件まで使えるようになりました。集計の「確定申告」の数字(売上・仕入れ・経費・利益)も無料で見られます。\n\nグループでは、オーナーが設定の「写真の共有」をオンにすると、商品画像(選べば領収書も)をメンバー全員で見られるようになりました。\n\n最新版（2.2.0）にアップデートしてお使いください。",
       "titleEn": "Automatic fees, now free to try",
       "bodyEn": "Automatic fee calculation is now free up to 10 times a month, and the \"Tax return\" figures in Stats are visible on the free plan.\n\nIn groups, when the owner turns on \"Photo sharing\" in Settings, every member can see item photos (and receipts, if chosen).\n\nUpdate to the latest version (2.2.0) to use it."
+    },
+    {
+      "id": "coming-2-4-0",
+      "title": "新機能、まもなく登場",
+      "body": "いただいたご要望から、\n次の更新で4つ追加します。\n\n・販売予定価格と見込みの利益\n・日付をカレンダーで選ぶ\n・迷っている商品の「保留」\n・まとめて売る「セット販売」\n\n※セット販売は、グループの\n　帳簿では少し先になります。\n\n入力欄が隠れる不具合も\n直します。",
+      "titleEn": "New features coming soon",
+      "bodyEn": "Based on your requests, the next update adds four things:\n\n• Estimated sale price and profit\n• A calendar for picking dates\n• Putting items on hold\n• Selling items as a bundle\n\nBundle sales will come to group ledgers a little later.\n\nIt also fixes a bug that hid input fields."
     }
   ],
   "photoUploadPaused": false
