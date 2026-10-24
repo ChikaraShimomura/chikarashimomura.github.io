@@ -39,9 +39,9 @@
     {
       "id": "requests-adopted-2-6-0",
       "title": "ご要望を採用しました",
-      "body": "いただいたご要望から、\n次の機能を追加しました。\n\n・写真を指で広げて拡大\n・売上見込みの合計\n・保留の商品だけを見る\n・売却の編集でカテゴリ\n・売却に「販売No.」を付ける\n・集計の「収支カレンダー」\n・文字の大きさ(設定)\n・保留の商品も色の目印\n\nいつもありがとうございます！",
+      "body": "いただいたご要望から、\n次の機能を追加しました。\n\n・写真を指で広げて拡大\n・売上見込みの合計\n・保留の商品だけを見る\n・売却の編集でカテゴリ\n・売却に「販売No.」を付ける\n・集計の「収支カレンダー」\n・文字の大きさ(設定)\n・保留の商品も色の目印",
       "titleEn": "Your requests, added",
-      "bodyEn": "Thanks to your requests, we added:\n\n• Pinch to zoom in on photos\n• Total of estimated sales\n• Show only items on hold\n• Category when editing a sale\n• Add a \"Sale No.\" to your sales\n• \"Monthly calendar\" in Stats\n• Text size in Settings\n• Color flags on items on hold\n\nThank you for your feedback!"
+      "bodyEn": "Thanks to your requests, we added:\n\n• Pinch to zoom in on photos\n• Total of estimated sales\n• Show only items on hold\n• Category when editing a sale\n• Add a \"Sale No.\" to your sales\n• \"Monthly calendar\" in Stats\n• Text size in Settings\n• Color flags on items on hold"
     }
   ],
   "photoUploadPaused": false
