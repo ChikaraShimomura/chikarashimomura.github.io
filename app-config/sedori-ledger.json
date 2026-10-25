@@ -42,6 +42,13 @@
       "body": "いただいたご要望から、\n次の機能を追加しました。\n\n・写真を指で広げて拡大\n・売上見込みの合計\n・保留の商品だけを見る\n・売却の編集でカテゴリ\n・売却に「販売No.」を付ける\n・集計の「収支カレンダー」\n・文字の大きさ(設定)\n・保留の商品も色の目印",
       "titleEn": "Your requests, added",
       "bodyEn": "Thanks to your requests, we added:\n\n• Pinch to zoom in on photos\n• Total of estimated sales\n• Show only items on hold\n• Category when editing a sale\n• Add a \"Sale No.\" to your sales\n• \"Monthly calendar\" in Stats\n• Text size in Settings\n• Color flags on items on hold"
+    },
+    {
+      "id": "shipping-presets-2-7-0",
+      "title": "送料のテンプレート",
+      "body": "いただいたご要望から、\n送料のテンプレートを\n追加しました。\n\nよく使う送料を登録すると、\n売却の画面でボタンを\n押すだけで入ります。\n\n設定 > 送料のテンプレート\nから登録できます。",
+      "titleEn": "Shipping presets",
+      "bodyEn": "Thanks to your requests, we added shipping presets.\n\nSave the shipping costs you use often, then fill them in with one tap when you record a sale.\n\nSet them up in Settings > Edit shipping presets."
     }
   ],
   "photoUploadPaused": false
