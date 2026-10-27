@@ -49,6 +49,13 @@
       "body": "いただいたご要望から、\n送料のテンプレートを\n追加しました。\n\nよく使う送料を登録すると、\n売却の画面でボタンを\n押すだけで入ります。\n\n設定 > 送料のテンプレート\nから登録できます。",
       "titleEn": "Shipping presets",
       "bodyEn": "Thanks to your requests, we added shipping presets.\n\nSave the shipping costs you use often, then fill them in with one tap when you record a sale.\n\nSet them up in Settings > Edit shipping presets."
+    },
+    {
+      "id": "coming-2-8-0",
+      "title": "新機能、まもなく登場",
+      "body": "いただいたご要望から、\n次の更新で追加します。\n\n・仕入れ一覧に販売予定価格\n・商品名の見出しと索引\n・売却の画面に販売予定価格\n・売上一覧に仕入れ値\n・売上一覧に仕入れ先\n・「仕入れた人」を後から変更",
+      "titleEn": "New features coming soon",
+      "bodyEn": "Thanks to your requests, the next update adds:\n\n• Estimated sale price in Stock\n• Letter headers and index by name\n• Est. sale price when selling\n• Cost and supplier in Sold\n• Groups: change the buyer"
     }
   ],
   "photoUploadPaused": false
