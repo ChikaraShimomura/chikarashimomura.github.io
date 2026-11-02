@@ -56,6 +56,13 @@
       "body": "いただいたご要望から、\n次の更新で追加します。\n\n・仕入れ一覧に販売予定価格\n・商品名の見出しと索引\n・売却の画面に販売予定価格\n・売上一覧に仕入れ値\n・売上一覧に仕入れ先\n・「仕入れた人」を後から変更",
       "titleEn": "New features coming soon",
       "bodyEn": "Thanks to your requests, the next update adds:\n\n• Estimated sale price in Stock\n• Letter headers and index by name\n• Est. sale price when selling\n• Cost and supplier in Sold\n• Groups: change the buyer"
+    },
+    {
+      "id": "transfer-backup-2-9",
+      "title": "機種変更に備えて",
+      "body": "新しい端末に替える時や、\n端末をなくした時のために\n2つの機能を追加しました。\n\n・合言葉で機種変更\n　前の端末で合言葉を作り、\n　新しい端末で入れると\n　帳簿を引き継げます。\n\n・自動バックアップ（有料）\n　オンにすると、帳簿を\n　1日1回サーバーに預けます\n　（文字のデータのみ）。\n\n設定の「機種変更」と\n「自動バックアップ」から\n使えます。最新版に\nアップデートしてください。",
+      "titleEn": "Ready for a new phone",
+      "bodyEn": "We added two features to help when you change devices:\n\n• Transfer code: create a code on your old device and enter it on the new one to move your ledger.\n• Auto backup (paid plan): once you turn it on, your ledger is saved to our server once a day (text data only).\n\nFind them in Settings under \"Change device\" and \"Auto backup\". Please update to the latest version."
     }
   ],
   "photoUploadPaused": false
