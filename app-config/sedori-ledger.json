@@ -63,6 +63,13 @@
       "body": "新しい端末に替える時や、\n端末をなくした時のために\n2つの機能を追加しました。\n\n・合言葉で機種変更\n　前の端末で合言葉を作り、\n　新しい端末で入れると\n　帳簿を引き継げます。\n\n・自動バックアップ（有料）\n　オンにすると、帳簿を\n　1日1回サーバーに預けます\n　（文字のデータのみ）。\n\n設定の「機種変更」と\n「自動バックアップ」から\n使えます。",
       "titleEn": "Ready for a new phone",
       "bodyEn": "We added two features to help when you change devices:\n\n• Transfer code: create a code on your old device and enter it on the new one to move your ledger.\n• Auto backup (paid plan): once you turn it on, your ledger is saved to our server once a day (text data only).\n\nFind them in Settings under \"Change device\" and \"Auto backup\"."
+    },
+    {
+      "id": "coming-2-9-3",
+      "title": "新機能、まもなく登場",
+      "body": "次の更新で、\n2つの機能を追加します。\n\n・売上一覧に、仕入れ額と\n　送料の合計を表示\n・グループの帳簿も\n　自動バックアップの対象に\n　（オーナーが有料の時）",
+      "titleEn": "New features coming soon",
+      "bodyEn": "The next update adds two things:\n\n• Total cost and total shipping in the Sold list\n• Group ledgers in auto backup (when the group owner is on the paid plan)"
     }
   ],
   "photoUploadPaused": false
