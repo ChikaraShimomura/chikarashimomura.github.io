@@ -70,6 +70,14 @@
       "body": "次の更新で、2つの機能を追加します。\n\n・売上一覧に仕入れ額と送料の合計を表示\n・グループの帳簿も自動バックアップに\n　（オーナーが有料の時）",
       "titleEn": "New features coming soon",
       "bodyEn": "The next update adds two things:\n\n• Total cost and total shipping in the Sold list\n• Group ledgers in auto backup (when the group owner is on the paid plan)"
+    },
+    {
+      "id": "coming-2-10-0",
+      "title": "新機能、まもなく登場",
+      "body": "次の更新で、月額500円の\n「スタンダードプラン」を足します。\n・在庫の棚卸し\n・明細をExcelで書き出し\n・毎日の自動バックアップ\n・オーナーならメンバーも広告なし\n\n月額150円のプランは、\n「ライトプラン」になります。\nいまご契約中の方のバックアップは、\n毎日のままです。\n\n「出品中」の印と想定送料は、\nみなさんが使えます。",
+      "titleEn": "New features coming soon",
+      "bodyEn": "The next update adds the Standard plan:\n\n• Stocktaking\n• Records in Excel format\n• Daily auto backup\n• No ads for all members of groups you own\n\nThe current paid plan will be called the Lite plan. Current subscribers keep daily auto backup.\n\n\"Listed\" marks and estimated shipping will be free for everyone.",
+      "belowVersion": "2.10.0"
     }
   ],
   "photoUploadPaused": false
