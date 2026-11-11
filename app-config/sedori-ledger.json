@@ -85,6 +85,14 @@
       "body": "月額500円の新しいプラン、\n「スタンダードプラン」です。\n・在庫の棚卸し（仕入れ一覧）\n・明細をExcelで（集計）\n・毎日の自動バックアップ\n・オーナーならメンバーも広告なし\n\n「出品中」の印と想定送料は、\nみなさんが使えます。\n\nグループの棚卸しで外した商品は、\n古い版では一覧に出ません。\nメンバーにも最新の版への\n更新をお願いしてください。",
       "titleEn": "A new plan is here",
       "bodyEn": "Meet the Standard plan:\n\n• Stocktaking (in Stock)\n• Records in Excel (in Stats)\n• Daily auto backup\n• No ads for all members of groups you own\n\n\"Listed\" marks and estimated shipping are free for everyone.\n\nItems removed in a group stocktake don't show in older versions of the app. Please ask your members to update to the latest version."
+    },
+    {
+      "id": "coming-2-10-1",
+      "title": "利益率を表示します",
+      "body": "次の更新で、集計の一番上に\n「利益率」(利益 ÷ 売上)が\n出るようになります。\n\nいただいたご要望から\n生まれた機能です。\nありがとうございます！",
+      "titleEn": "Profit margin is coming",
+      "bodyEn": "The next update shows your Margin (profit ÷ sales) at the top of Stats.\n\nThis was added thanks to a user request. Thank you!",
+      "belowVersion": "2.10.1"
     }
   ],
   "photoUploadPaused": false
