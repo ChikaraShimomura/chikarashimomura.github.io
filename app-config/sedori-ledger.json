@@ -97,7 +97,7 @@
     {
       "id": "coming-2-11-0",
       "title": "経費を商品ごとに",
-      "body": "次の更新で、売却の時に\n商品ごとの経費(広告費・\n梱包材など)を入れられる\nようになります。\n利益から引いて計算します。\n\n「経費を記録」に経費があれば、\n集計に「経費を引いた利益」\nも出します。\n\nいただいたご要望から\n生まれた機能です。\nありがとうございます！",
+      "body": "次の更新で、売却の時に商品ごとの経費\n(広告費・梱包材など)を入れられます。\n利益から引いて計算します。\n\n「経費を記録」に経費があれば、集計に\n「経費を引いた利益」も出します。\n\nいただいたご要望から生まれた機能です。\nありがとうございます！",
       "titleEn": "Item expenses are coming",
       "bodyEn": "The next update lets you add expenses (ads, packaging, etc.) when recording a sale. They're subtracted from that sale's profit.\n\nIf you use \"Log expense\", Stats will also show your profit after expenses.\n\nThis was added thanks to a user request. Thank you!",
       "belowVersion": "2.11.0"
