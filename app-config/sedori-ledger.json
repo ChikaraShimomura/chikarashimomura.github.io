@@ -101,6 +101,14 @@
       "titleEn": "Item expenses are coming",
       "bodyEn": "The next update lets you add expenses (ads, packaging, etc.) when recording a sale. They're subtracted from that sale's profit.\n\nIf you use \"Log expense\", Stats will also show your profit after expenses.\n\nThis was added thanks to a user request. Thank you!",
       "belowVersion": "2.11.0"
+    },
+    {
+      "id": "requests-adopted-2-12-0",
+      "title": "ご要望を採用しました",
+      "body": "いただいたご要望から、\n最新の版 (2.12.0) に\n次の点を入れました。\n\n・経費に領収書の写真\n　(集計の「経費を記録」)\n・色フラグを6色まで\n　(設定の「色フラグの編集」\n　 でオン・有料プラン)\n・売上一覧の月・年で\n　利益が読めない点を修正\n・メモの入力中に欄が\n　隠れる点を修正",
+      "bodyWide": "いただいたご要望から、\n最新の版 (2.12.0) に次の点を入れました。\n\n・経費に領収書の写真 (集計の「経費を記録」)\n・色フラグを6色まで\n　(設定の「色フラグの編集」でオン・有料プラン)\n・売上一覧の月・年で利益が読めない点を修正\n・メモの入力中に欄が隠れる点を修正",
+      "titleEn": "Your requests, added",
+      "bodyEn": "Thanks to your requests,\nversion 2.12.0 adds:\n\n• Receipt photos on expenses\n• Up to 6 color flags (paid plans)\n• Fixed: profit cut off in Sold\n• Fixed: keyboard hiding the note\n\nTo use colors 5 and 6, turn them on in Settings > Customize the flag names."
     }
   ],
   "photoUploadPaused": false
