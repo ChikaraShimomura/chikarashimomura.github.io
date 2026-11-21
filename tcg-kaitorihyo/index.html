@@ -3,8 +3,39 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TCG買取表 サポート | ポケカ・トレカの買取価格を比較</title>
-  <meta name="robots" content="noindex" />
+  <title>トレカ買取比較表 - お店ごとのトレカ買取価格を一覧で比較</title>
+  <meta name="description" content="カード名や型番で探すだけで、お店ごとのトレカ買取価格を一覧で比べられる無料アプリ。PSA10・素体・未開封BOX、店頭買取・郵送買取を分けて表示。ポケカ・ワンピース・遊戯王・デュエマなどに対応。iPhone と Android。" />
+  <link rel="canonical" href="https://chikarashimomura.github.io/tcg-kaitorihyo/" />
+  <meta name="apple-itunes-app" content="app-id=6806564028" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ja_JP" />
+  <meta property="og:site_name" content="トレカ買取比較表" />
+  <meta property="og:title" content="トレカ買取比較表 - お店ごとのトレカ買取価格を一覧で比較" />
+  <meta property="og:description" content="カード名や型番で探すだけで、お店ごとのトレカ買取価格を一覧で比べられる無料アプリ。PSA10・素体・未開封BOX、店頭買取・郵送買取を分けて表示。" />
+  <meta property="og:url" content="https://chikarashimomura.github.io/tcg-kaitorihyo/" />
+  <meta property="og:image" content="https://chikarashimomura.github.io/tcg-kaitorihyo/img/og.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "トレカ買取比較表",
+    "description": "カード名や型番で探すだけで、お店ごとのトレカ買取価格を一覧で比べられるアプリ。PSA10・素体・未開封BOX、店頭買取・郵送買取を分けて表示します。",
+    "operatingSystem": "iOS, Android",
+    "applicationCategory": "ShoppingApplication",
+    "inLanguage": "ja",
+    "url": "https://chikarashimomura.github.io/tcg-kaitorihyo/",
+    "image": "https://chikarashimomura.github.io/tcg-kaitorihyo/img/og.jpg",
+    "downloadUrl": [
+      "https://apps.apple.com/jp/app/id6806564028",
+      "https://play.google.com/store/apps/details?id=com.chikara.tcgkaitorihyo"
+    ],
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "JPY" },
+    "author": { "@type": "Person", "name": "Chikara Shimomura" }
+  }
+  </script>
   <style>
     :root {
       --bg: #F6F7F9; --card: #FFFFFF; --text: #1A1D21; --sub: #5A6470;
@@ -13,36 +44,111 @@
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Yu Gothic', sans-serif; background: var(--bg); color: var(--text); line-height: 1.8; }
     .wrap { max-width: 640px; margin: 0 auto; padding: 48px 24px 64px; }
-    h1 { font-size: 22px; color: var(--accent); text-align: center; margin-bottom: 8px; }
-    .date { text-align: center; font-size: 12px; color: var(--sub); margin-bottom: 24px; }
-    .card { background: var(--card); border: 1px solid var(--border); border-radius: 18px; padding: 28px; box-shadow: 0 2px 10px rgba(26,29,33,.05); font-size: 14px; color: var(--sub); }
-    h2 { font-size: 15px; color: var(--accent); margin: 22px 0 6px; }
-    h2:first-of-type { margin-top: 0; }
-    p { margin-bottom: 10px; }
-    dl { font-size: 14px; }
-    .row { display: grid; grid-template-columns: 150px 1fr; gap: 12px; padding: 14px 0; border-bottom: 1px solid var(--border); }
-    .row:last-child { border-bottom: none; }
-    dt { color: var(--accent); font-weight: bold; }
-    dd { color: var(--sub); }
-    @media (max-width: 480px) { .row { grid-template-columns: 1fr; gap: 2px; } }
-    .back { display: block; text-align: center; margin-top: 28px; font-size: 13px; color: var(--accent); }
+    .hero { background: var(--point); color: #fff; border-radius: 24px; padding: 40px 28px; text-align: center; box-shadow: 0 6px 24px rgba(26,29,33,.12); }
+    .hero h1 { font-size: 28px; letter-spacing: 1px; line-height: 1.4; }
+    .hero .subtitle { margin-top: 10px; font-size: 15px; }
+    .hero .note { margin-top: 6px; font-size: 12px; opacity: .9; }
+    .store-links { margin-top: 24px; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+    .store-link { display: inline-block; background: #fff; color: var(--point); font-weight: bold; text-decoration: none; padding: 12px 28px; border-radius: 12px; font-size: 15px; }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 18px; padding: 24px 28px; margin-top: 20px; box-shadow: 0 2px 10px rgba(26,29,33,.05); font-size: 14px; color: var(--sub); }
+    .card h2 { font-size: 16px; color: var(--accent); margin-bottom: 10px; }
+    .card h3 { font-size: 14px; color: var(--accent); margin: 18px 0 4px; }
+    .card h3:first-of-type { margin-top: 0; }
+    .card p { margin-bottom: 10px; }
+    .card p:last-child { margin-bottom: 0; }
+    .card ul { list-style: none; }
+    .card li { padding: 4px 0 4px 1em; text-indent: -1em; }
+    .card li::before { content: "・"; color: var(--point); font-weight: bold; }
+    .shots { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-top: 20px; }
+    .shots figure { text-align: center; font-size: 12px; color: var(--sub); }
+    .shots img { width: 100%; height: auto; border-radius: 14px; display: block; box-shadow: 0 2px 10px rgba(26,29,33,.08); }
+    .shots figcaption { margin-top: 6px; }
+    .small { font-size: 12px; }
     a { color: var(--point); }
-</style>
+    .links { margin-top: 28px; text-align: center; font-size: 13px; color: var(--sub); }
+    .links p { margin-top: 4px; }
+    .oldname { margin-top: 16px; text-align: center; font-size: 12px; color: #8A939E; }
+    .back { display: block; text-align: center; margin-top: 20px; font-size: 13px; color: var(--accent); }
+    @media (max-width: 480px) {
+      .wrap { padding: 32px 16px 48px; }
+      .hero { padding: 32px 18px; }
+      .hero h1 { font-size: 24px; }
+      .card { padding: 20px 18px; }
+    }
+  </style>
 </head>
 <body>
   <div class="wrap">
-    <h1>TCG買取表 サポート</h1>
-    
+    <div class="hero">
+      <h1>トレカ買取比較表</h1>
+      <p class="subtitle">お店ごとのトレカ買取価格を、一覧で比べられるアプリ</p>
+      <p class="note">無料・ログイン不要(広告あり)・iPhone / Android</p>
+      <div class="store-links">
+        <a class="store-link" href="https://apps.apple.com/jp/app/id6806564028">App Store で入手</a>
+        <a class="store-link" href="https://play.google.com/store/apps/details?id=com.chikara.tcgkaitorihyo">Google Play で入手</a>
+      </div>
+    </div>
+
     <div class="card">
-      <p>「TCG買取表」は、トレカ(ポケモンカード・ワンピースカード・ドラゴンボールカード・ヴァイスシュヴァルツ・デュエル・マスターズ・遊戯王OCG・ガンダムカードゲーム)の買取価格を店ごとに比べられるアプリです。店頭買取と郵送買取を分けて表示し、PSA10・素体・未開封BOXの状態別価格、値動きグラフ、マイリスト(コレクションの評価額・ウォッチ)に対応しています。カード詳細の「販売」タブでは、お店が公開している販売価格も確認できます。</p>
+      <h2>できること</h2>
+      <ul>
+        <li>カード名や型番で探すだけで、お店ごとの買取価格を一覧で比較。いちばん高く買い取ってくれるお店がひと目でわかります</li>
+        <li>PSA10・素体・未開封BOXなど、状態ごとに分けて表示</li>
+        <li>店頭買取と郵送買取を分けて表示</li>
+        <li>値動きのランキング・前日比・状態ごとの推移グラフ</li>
+        <li>マイリスト: 手持ちのカードを「コレクション」に登録して今の買取価格での評価額を確認、気になるカードはハートで「ウォッチ」</li>
+        <li>センタリングチェック: カードを撮るだけで、横・縦の余白の比を測れます(PSA10の基準の内側か外側かの目安)</li>
+      </ul>
+    </div>
+
+    <div class="shots">
+      <figure>
+        <img src="img/compare.jpg" width="600" height="1299" loading="lazy" decoding="async" alt="カード詳細の画面。お店ごとの買取価格が高い順に並んでいる" />
+        <figcaption>お店ごとの買取価格</figcaption>
+      </figure>
+      <figure>
+        <img src="img/store-mail.jpg" width="600" height="1299" loading="lazy" decoding="async" alt="店頭買取と郵送買取を分けて表示している画面" />
+        <figcaption>店頭と郵送を分けて表示</figcaption>
+      </figure>
+      <figure>
+        <img src="img/centering.jpg" width="600" height="1299" loading="lazy" decoding="async" alt="センタリングチェックの結果の画面。カードの表面の、横と縦の余白の比が出ている" />
+        <figcaption>センタリングを測る</figcaption>
+      </figure>
+    </div>
+
+    <div class="card">
+      <h2>対応しているカード</h2>
+      <p>ポケモンカード・ワンピースカード・遊戯王OCG・デュエル・マスターズ・ドラゴンボールカード・ヴァイスシュヴァルツ・ガンダムカードゲーム・シャドウバース エボルヴ</p>
+    </div>
+
+    <div class="card">
+      <h2>よくある質問</h2>
+      <h3>料金はかかりますか?</h3>
+      <p>無料でお使いいただけます。ログインも不要です。アプリ内に広告を表示しています。</p>
+      <h3>価格はいつ更新されますか?</h3>
+      <p>買取情報は毎朝の反映を基本としています。取得の状況により遅れる場合があります。画面の更新日時をご確認ください。</p>
+      <h3>表示された価格で必ず買い取ってもらえますか?</h3>
+      <p>掲載価格は各店が公表する買取表に基づく参考価格です。実際の査定額はカードの状態などにより変わります。売る前に、お店で最新の価格と条件をご確認ください。</p>
+      <h3>センタリングチェックで撮った写真はどこかに送られますか?</h3>
+      <p>写真は端末の中だけで使い、保存も送信もしません。結果は目安で、傷・白欠け・角・表面は見ていません。</p>
+    </div>
+
+    <div class="card">
       <h2>お問い合わせ</h2>
       <p>ご要望・不具合のご報告は、アプリの「設定」にある「運営への要望」からお送りいただけます。メールでのお問い合わせは <a href="mailto:chikara0323@gmail.com">chikara0323@gmail.com</a> までお願いします(回答には数日いただく場合があります)。</p>
-      <h2>掲載価格について</h2>
-      <p>掲載価格は各店が公表する買取表に基づく参考価格です。実際の査定額はカードの状態などにより変わります。</p>
-      <h2>関連文書</h2>
+    </div>
+
+    <div class="card">
+      <h2>ご注意</h2>
+      <p class="small">本アプリは非公式の情報比較ツールです。各カードゲームの権利者・PSA・掲載店舗各社とは関係がなく、提供・監修・公認を受けていません。カード名・店名等の商標は各権利者に帰属します。</p>
+    </div>
+
+    <div class="links">
       <p><a href="/tcg-kaitorihyo/data-sources/">参照データの出典・ライセンス</a></p>
       <p><a href="/tcg-kaitorihyo/terms/">利用規約</a> / <a href="/tcg-kaitorihyo/privacy/">プライバシーポリシー</a> / <a href="/tcg-kaitorihyo/tokushoho/">特定商取引法に基づく表記</a></p>
     </div>
+
+    <p class="oldname">旧名称: TCG買取表</p>
     <a class="back" href="/">トップへ</a>
   </div>
 </body>
