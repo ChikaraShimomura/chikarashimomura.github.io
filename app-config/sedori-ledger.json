@@ -117,6 +117,14 @@
       "bodyWide": "いただいたご要望から、\n最新の版 (2.12.1) に次の点を入れました。\n\n・セット販売の「内訳」で、商品ごとの値段を入力\n・集計の収支カレンダーで、日を押すとその日の利益",
       "titleEn": "Your requests, added",
       "bodyEn": "Thanks to your requests,\nversion 2.12.1 adds:\n\n• A price for each item in a bundle sale (open \"Breakdown\")\n• Tap a day in the Monthly calendar (Stats) to see that day's profit"
+    },
+    {
+      "id": "requests-adopted-2-12-3",
+      "title": "ご要望を採用しました",
+      "body": "いただいたご要望から、\n最新の版 (2.12.3) に\n次の点を入れました。\n\n・売上一覧を日付で並べると\n　同じ日は記録した順に\n・収支カレンダーで\n　日を押した時の売上を見やすく",
+      "bodyWide": "いただいたご要望から、\n最新の版 (2.12.3) に次の点を入れました。\n\n・売上一覧を日付で並べると、同じ日は記録した順に\n・収支カレンダーで日を押した時の売上を見やすく",
+      "titleEn": "Your requests, added",
+      "bodyEn": "Thanks to your requests,\nversion 2.12.3 adds:\n\n• Sold sorted by Date: sales on the same day follow the time you recorded them\n• Tap a day in the Monthly calendar (Stats) to see that day's sales and profit"
     }
   ],
   "photoUploadPaused": false
